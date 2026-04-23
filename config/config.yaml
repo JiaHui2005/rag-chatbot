@@ -1,0 +1,14 @@
+app:
+  name: "RAG AI Assistant"
+  version: "1.0.0"
+
+rag:
+  chunk_size: 1000
+  chunk_overlap: 200
+  vector_store: "chroma"
+  embedding_model: "all-MiniLM-L6-v2"
+
+llm:
+  provider: "openai"
+  model: "gpt-3.5-turbo"
+  temperature: 0.7
