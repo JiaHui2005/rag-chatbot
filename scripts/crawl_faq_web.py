@@ -179,10 +179,32 @@ def main() -> int:
 
     try:
         if args.from_local:
-            source_path = register_local_html(args.html_path, args.url)
+            html_path = args.html_path.resolve()
+            if html_path.is_dir():
+                paths = sorted(html_path.glob("*.html"))
+            elif html_path.is_file():
+                paths = [html_path]
+            else:
+                # Try the legacy path if default doesn't exist
+                legacy_path = (ROOT_DIR / "data" / "faq_web" / "pages").resolve()
+                if legacy_path.exists():
+                    paths = sorted(legacy_path.glob("*.html"))
+                else:
+                    print(f"Path not found: {args.html_path}")
+                    return 1
+
+            if not paths:
+                print(f"No HTML files found in {args.html_path}")
+                return 1
+
+            for path in paths:
+                register_local_html(path, args.url)
+                print(f"Successfully registered {path.relative_to(ROOT_DIR)}")
             action = "registered"
+            source_path = paths[0].parent # For the final print
         else:
             source_path = crawl_from_web(args.url, args.timeout)
+            print(f"Successfully saved {source_path.relative_to(ROOT_DIR)}")
             action = "saved"
     except FileNotFoundError as exc:
         print(f"Local HTML file not found: {exc}")
@@ -195,8 +217,7 @@ def main() -> int:
         return 1
 
     print(
-        f"Successfully {action} raw FAQ HTML at {source_path.relative_to(ROOT_DIR)}. "
-        "Run scripts/clean_faq_web.py to normalize it."
+        f"\nTotal {action} completed. Run scripts/clean_faq_web.py to normalize them."
     )
     return 0
 

@@ -34,18 +34,30 @@ def write_jsonl(path: Path, records: List[Dict]) -> None:
 
 
 def split_by_word_budget(text: str, max_words: int) -> List[str]:
+    # Splitting by paragraph first
     paragraphs = [segment.strip() for segment in text.split("\n") if segment.strip()]
+    
+    # If a paragraph is still too long, split it by sentences
+    fine_grained_segments = []
+    for paragraph in paragraphs:
+        if len(paragraph.split()) > max_words:
+            # Split by common sentence terminators
+            sentences = re.split(r'(?<=[.!?])\s+', paragraph)
+            fine_grained_segments.extend([s.strip() for s in sentences if s.strip()])
+        else:
+            fine_grained_segments.append(paragraph)
+
     chunks: List[str] = []
     current: List[str] = []
     current_words = 0
 
-    for paragraph in paragraphs:
-        words = paragraph.split()
+    for segment in fine_grained_segments:
+        words = segment.split()
         if current and current_words + len(words) > max_words:
             chunks.append("\n".join(current).strip())
             current = []
             current_words = 0
-        current.append(paragraph)
+        current.append(segment)
         current_words += len(words)
 
     if current:

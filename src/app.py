@@ -17,21 +17,8 @@ def init_page():
 
 def init_sidebar():
     with st.sidebar:
-        st.title("⚙️ Cấu hình")
-        st.info("Tải lên tài liệu của bạn để bắt đầu hỏi đáp.")
-        
-        uploaded_files = st.file_uploader(
-            "Chọn tài liệu (PDF, TXT)", 
-            type=["pdf", "txt"], 
-            accept_multiple_files=True
-        )
-        
-        if uploaded_files:
-            if st.button("🚀 Xử lý tài liệu"):
-                with st.spinner("Đang xử lý tài liệu..."):
-                    # Logic xử lý tài liệu ở đây
-                    time.sleep(2)
-                    st.success("Xử lý hoàn tất!")
+        st.title("⚙️ Hệ thống")
+        st.info("Trợ lý AI hỗ trợ tra cứu Luật Đất đai năm 2024 và các câu hỏi thường gặp.")
         
         st.markdown("---")
         if st.button("🗑️ Xóa lịch sử chat"):

@@ -10,6 +10,8 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
 from langchain_core.embeddings import Embeddings
+from dotenv import load_dotenv
+import os
 
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
@@ -118,13 +120,15 @@ def build_embeddings(embedding_backend: str, model_name: str) -> Embeddings:
 
 
 def main() -> int:
+    load_dotenv()
     args = parse_args()
     if not MERGED_CHUNKS_PATH.exists():
         print("Missing merged chunks. Run scripts/build_chunks.py first.")
         return 1
 
     config = load_config()
-    embedding_model = config.get("rag", {}).get("embedding_model", "all-MiniLM-L6-v2")
+    # Try environment variable from .env first, then config
+    embedding_model = os.getenv("EMBEDDING_MODEL") or config.get("rag", {}).get("embedding_model", "all-MiniLM-L6-v2")
     records = load_jsonl(MERGED_CHUNKS_PATH)
     documents = build_documents(records)
 
