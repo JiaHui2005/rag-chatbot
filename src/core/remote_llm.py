@@ -7,6 +7,7 @@ class RemoteLLM(LLM):
     api_url: str
     max_new_tokens: int = 512
     temperature: float = 0.3
+    mode: str = "ft"
 
     @property
     def _llm_type(self) -> str:
@@ -20,15 +21,22 @@ class RemoteLLM(LLM):
         **kwargs: Any,
     ) -> str:
         """Thực hiện gọi API đến Server Colab."""
+        # Đảm bảo URL không có dấu gạch chéo dư thừa
+        base_url = self.api_url.rstrip("/")
+        
         payload = {
             "prompt": prompt,
             "max_new_tokens": self.max_new_tokens,
             "temperature": self.temperature,
-            "mode": kwargs.get("mode", "ft") # Mặc định là fine-tuned
+            "mode": self.mode
         }
         
         try:
-            response = requests.post(f"{self.api_url}/generate", json=payload, timeout=60)
+            headers = {
+                "ngrok-skip-browser-warning": "true",
+                "Content-Type": "application/json"
+            }
+            response = requests.post(f"{base_url}/generate", json=payload, headers=headers, timeout=180)
             response.raise_for_status()
             result = response.json()
             return result.get("response", "Lỗi: Không nhận được phản hồi từ API.")

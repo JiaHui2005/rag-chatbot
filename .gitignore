@@ -143,5 +143,5 @@ dmypy.json
 cython_debug/
 
 # Vector DB
-db/
-data/
+# db/
+# data/
