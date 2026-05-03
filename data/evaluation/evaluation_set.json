@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "query": "Phạm vi điều chỉnh của Luật Đất đai 2024 là gì?",
+        "ground_truth_context": "law_land_2024_article_1_chunk_0",
+        "reference_answer": "Luật Đất đai 2024 quy định về chế độ sở hữu đất đai, quyền hạn và trách nhiệm của Nhà nước đại diện chủ sở hữu toàn dân về đất đai và thống nhất quản lý về đất đai, chế độ quản lý và sử dụng đất đai, quyền và nghĩa vụ của công dân, người sử dụng đất đối với đất đai thuộc lãnh thổ của nước Cộng hòa xã hội chủ nghĩa Việt Nam."
+    },
+    {
+        "id": 2,
+        "query": "Bản đồ địa chính là gì?",
+        "ground_truth_context": "law_land_2024_article_3_chunk_0",
+        "reference_answer": "Bản đồ địa chính là bản đồ thể hiện các thửa đất và các đối tượng địa lý có liên quan, lập theo đơn vị hành chính cấp xã hoặc theo đơn vị hành chính cấp huyện nơi không thành lập đơn vị hành chính cấp xã, được cơ quan nhà nước có thẩm quyền xác nhận."
+    },
+    {
+        "id": 3,
+        "query": "Người sử dụng đất bao gồm những đối tượng nào?",
+        "ground_truth_context": "law_land_2024_article_4_chunk_0",
+        "reference_answer": "Người sử dụng đất bao gồm: tổ chức trong nước (cơ quan nhà nước, tổ chức kinh tế...); tổ chức tôn giáo; cá nhân trong nước, người Việt Nam định cư ở nước ngoài là công dân Việt Nam; cộng đồng dân cư; tổ chức nước ngoài có chức năng ngoại giao; người gốc Việt Nam định cư ở nước ngoài; và tổ chức kinh tế có vốn đầu tư nước ngoài."
+    },
+    {
+        "id": 4,
+        "query": "Các hành vi nào bị nghiêm cấm trong lĩnh vực đất đai?",
+        "ground_truth_context": "law_land_2024_article_11_chunk_0",
+        "reference_answer": "Các hành vi bị nghiêm cấm bao gồm: lấn đất, chiếm đất, hủy hoại đất; vi phạm quy định quản lý nhà nước về đất đai; vi phạm chính sách đối với đồng bào dân tộc thiểu số; lợi dụng chức vụ làm trái quy định; cung cấp thông tin không chính xác; không ngăn chặn hành vi vi phạm; không thực hiện đúng quy định khi thực hiện quyền người sử dụng đất; không đăng ký giao dịch đất đai; không thực hiện nghĩa vụ tài chính; cản trở việc sử dụng đất; và phân biệt đối xử về giới."
+    },
+    {
+        "id": 5,
+        "query": "Quyền chung của người sử dụng đất là gì?",
+        "ground_truth_context": "law_land_2024_article_26_chunk_0",
+        "reference_answer": "Người sử dụng đất có các quyền chung như: được cấp Giấy chứng nhận quyền sử dụng đất; hưởng thành quả lao động, kết quả đầu tư trên đất; hưởng lợi ích từ việc Nhà nước đầu tư bảo vệ, cải tạo đất; được hướng dẫn cải tạo đất; được Nhà nước bảo hộ khi bị xâm phạm quyền lợi; được chuyển mục đích sử dụng đất; được bồi thường, hỗ trợ, tái định cư khi thu hồi đất; và được khiếu nại, tố cáo hành vi vi phạm."
+    }
+]

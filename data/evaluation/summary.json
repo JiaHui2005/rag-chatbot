@@ -1,0 +1,8 @@
+{
+    "total_queries": 5,
+    "avg_recall_at_5": 0.4,
+    "avg_bleu": 0.0,
+    "avg_rouge_l": 0.10308020687839811,
+    "avg_bert_f1": 0.5947320580482482,
+    "avg_generation_time": 0.018773460388183595
+}

@@ -145,3 +145,11 @@ cython_debug/
 # Vector DB
 # db/
 # data/
+
+# Local database and cache
+db/chroma/
+db_backup*/
+__pycache__/
+*.pyc
+.venv/
+.env

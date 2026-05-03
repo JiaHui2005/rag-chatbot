@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "query": "Phạm vi điều chỉnh của Luật Đất đai 2024 là gì?",
+        "recall_at_5": 1,
+        "bleu": 0.0,
+        "rouge_l": 0.03252032520325203,
+        "bert_f1": 0.5508654117584229,
+        "retrieval_time": 0.15120935440063477,
+        "generation_time": 0.02120208740234375,
+        "retrieved_chunks": [
+            "law_land_2024_article_1_chunk_0",
+            "faq_Các câu hỏi thường gặp - Luật Đất đai năm 2024_001_chunk_0",
+            "faq_HỎI ĐÁP VỀ LUẬT ĐẤT ĐAI NĂM 2024_001_chunk_0",
+            "law_land_2024_article_239_chunk_0",
+            "faq_Các câu hỏi thường gặp - Luật Đất đai năm 2024_144_chunk_0"
+        ]
+    },
+    {
+        "id": 2,
+        "query": "Bản đồ địa chính là gì?",
+        "recall_at_5": 0,
+        "bleu": 0.0,
+        "rouge_l": 0.22413793103448282,
+        "bert_f1": 0.6613406538963318,
+        "retrieval_time": 0.0829000473022461,
+        "generation_time": 0.0,
+        "retrieved_chunks": [
+            "law_land_2024_article_50_chunk_0",
+            "law_land_2024_article_129_chunk_0",
+            "law_land_2024_article_49_chunk_2",
+            "law_land_2024_article_49_chunk_0",
+            "law_land_2024_article_58_chunk_2"
+        ]
+    },
+    {
+        "id": 3,
+        "query": "Người sử dụng đất bao gồm những đối tượng nào?",
+        "recall_at_5": 0,
+        "bleu": 0.0,
+        "rouge_l": 0.23357664233576644,
+        "bert_f1": 0.6539673209190369,
+        "retrieval_time": 0.04568314552307129,
+        "generation_time": 0.0,
+        "retrieved_chunks": [
+            "law_land_2024_article_44_chunk_3",
+            "law_land_2024_article_44_chunk_2",
+            "law_land_2024_article_44_chunk_4"
+        ]
+    },
+    {
+        "id": 4,
+        "query": "Các hành vi nào bị nghiêm cấm trong lĩnh vực đất đai?",
+        "recall_at_5": 1,
+        "bleu": 0.0,
+        "rouge_l": 0.011560693641618497,
+        "bert_f1": 0.554351270198822,
+        "retrieval_time": 0.04191899299621582,
+        "generation_time": 0.04937577247619629,
+        "retrieved_chunks": [
+            "law_land_2024_article_11_chunk_0",
+            "law_land_2024_article_11_chunk_1"
+        ]
+    },
+    {
+        "id": 5,
+        "query": "Quyền chung của người sử dụng đất là gì?",
+        "recall_at_5": 0,
+        "bleu": 0.0,
+        "rouge_l": 0.013605442176870748,
+        "bert_f1": 0.5531356334686279,
+        "retrieval_time": 0.030588150024414062,
+        "generation_time": 0.02328944206237793,
+        "retrieved_chunks": [
+            "law_land_2024_article_31_chunk_0",
+            "law_land_2024_article_31_chunk_1"
+        ]
+    }
+]
