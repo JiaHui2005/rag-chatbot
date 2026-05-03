@@ -1,7 +1,15 @@
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+import faulthandler
+faulthandler.enable()
+
 import json
 import hashlib
 import math
-import os
 import re
 from pathlib import Path
 from typing import List, Tuple
@@ -30,7 +38,7 @@ STOPWORDS = {
 
 
 class SimpleHashEmbeddings(Embeddings):
-    def __init__(self, dimensions: int = 384):
+    def __init__(self, dimensions: int = 1024):
         self.dimensions = dimensions
 
     def _embed(self, text: str) -> List[float]:
@@ -512,7 +520,7 @@ TRẢ LỜI:""",
         return "\n\n".join(blocks)
 
     def print_debug_context(self, query: str, docs: List[Document], context: str) -> None:
-        print(f"\n🔍 Retrieval Query: {query}\n")
+        print(f"\nRetrieval Query: {query}\n")
         print("========== RETRIEVED DOCS ==========")
         for index, doc in enumerate(docs, start=1):
             metadata = doc.metadata or {}
@@ -611,7 +619,7 @@ TRẢ LỜI:""",
             #     return "Xin lỗi, tôi là trợ lý chuyên về Luật Đất đai Việt Nam. Tôi không thể trả lời các câu hỏi ngoài lĩnh vực này."
 
             if not self.llm.api_url:
-                return "❌ Chưa cấu hình API"
+                return "Chưa cấu hình API"
 
             llm = self.llm.copy(update={"mode": mode})
 
@@ -629,11 +637,11 @@ TRẢ LỜI:""",
                 return "Xin lỗi, ở chế độ tra cứu luật, tôi chỉ có thể hỗ trợ các vấn đề liên quan đến Luật Đất đai Việt Nam."
     
             if not self.vector_db and not self.bm25_retriever:
-                return "❌ Chưa load tài liệu"
+                return "Chưa load tài liệu"
 
             retrieval_query, selected_docs = self.retrieve_documents(question)
             if not selected_docs:
-                return "❌ Câu hỏi của bạn không nằm trong phạm vi dữ liệu pháp luật hiện có của tôi hoặc không liên quan đến Luật Đất đai."
+                return "Câu hỏi của bạn không nằm trong phạm vi dữ liệu pháp luật hiện có của tôi hoặc không liên quan đến Luật Đất đai."
 
             context = self.build_context(selected_docs)
             self.print_debug_context(retrieval_query, selected_docs, context)
@@ -654,4 +662,4 @@ TRẢ LỜI:""",
             })
 
         except Exception as e:
-            return f"⚠️ Error: {str(e)}"
+            return f"Error: {str(e)}"

@@ -1,17 +1,35 @@
-import streamlit as st
-import time
 import os
-from pathlib import Path
-from dotenv import load_dotenv
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+import faulthandler
+faulthandler.enable()
+
+# Nạp trước các thư viện C++ nặng để tránh xung đột luồng với Streamlit
+try:
+    import numpy
+    import sklearn
+    import chromadb
+    import torch
+except ImportError:
+    pass
+
 import sys
+import time
+from pathlib import Path
 import yaml
 
-# Đảm bảo import được core
+# Load environment variables
+from dotenv import load_dotenv
+load_dotenv()
+
+# Đảm bảo import được core và nạp RAGEngine ở Main Thread TRƯỚC Streamlit
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 from core.rag_engine import RAGEngine
 
-# Load environment variables
-load_dotenv()
+import streamlit as st
 
 @st.cache_resource
 def load_engine():

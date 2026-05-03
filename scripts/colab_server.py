@@ -1,15 +1,15 @@
 # --- COPY TOÀN BỘ CODE NÀY VÀO 1 CELL TRÊN GOOGLE COLAB ---
 
 # 1. Cài đặt các thư viện cần thiết
-!pip install -U \
-fastapi \
-uvicorn \
-pyngrok \
-nest-asyncio \
-"transformers>=4.41.0" \
-"accelerate>=0.30.0" \
-"peft>=0.11.0" \
-"bitsandbytes>=0.43.0"
+# !pip install -U \
+# fastapi \
+# uvicorn \
+# pyngrok \
+# nest-asyncio \
+# "transformers>=4.41.0" \
+# "accelerate>=0.30.0" \
+# "peft>=0.11.0" \
+# "bitsandbytes>=0.43.0"
 
 import nest_asyncio
 from fastapi import FastAPI, HTTPException

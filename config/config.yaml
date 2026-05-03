@@ -6,7 +6,7 @@ rag:
   chunk_size: 1000
   chunk_overlap: 200
   vector_store: "chroma"
-  embedding_backend: "auto"
+  embedding_backend: "simple"
   embedding_model: "all-MiniLM-L6-v2"
   persist_dir: "db/chroma"
   collection_name: "land_law_rag"
