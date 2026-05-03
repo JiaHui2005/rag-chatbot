@@ -68,7 +68,13 @@ venv/bin/python scripts/build_index.py
 Ghi chú:
 - `crawl_faq_web.py` chỉ lo lưu HTML thô và manifest.
 - `clean_faq_web.py` mới là bước parse HTML FAQ thành JSONL sạch.
-- `build_index.py` sẽ thử dùng embedding model cấu hình trong `config/config.yaml`. Nếu môi trường không có mạng và chưa cache model, script sẽ fallback sang embedding offline đơn giản để bạn test pipeline end-to-end.
+- `build_index.py` đọc `rag.persist_dir`, `rag.collection_name`, `rag.embedding_backend` và `rag.embedding_model` trong `config/config.yaml`.
+- Sau khi build, index ghi thêm `db/chroma/index_manifest.json`; app đọc manifest này để dùng đúng embedding backend khi truy vấn.
+- Nếu môi trường không có mạng và chưa cache model HuggingFace, `embedding_backend: auto` sẽ fallback sang embedding offline đơn giản để test end-to-end. Khi muốn dùng embedding HuggingFace thật, hãy đảm bảo model đã tải được rồi chạy lại:
+```bash
+venv/bin/python scripts/build_index.py --embedding-backend huggingface
+```
+- Retrieval hiện kết hợp Chroma vector search + BM25 từ `data/processed/merged_chunks.jsonl`, sau đó rerank theo từ khóa, điều luật, metadata `article/topic`, và tự kéo thêm chunk liền kề cùng điều để tránh mất nội dung khi một điều bị tách nhiều chunk.
 
 ## Khởi chạy
 - Mac/Linux: `./run.sh`

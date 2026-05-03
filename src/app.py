@@ -1,8 +1,10 @@
 import streamlit as st
 import time
 import os
+from pathlib import Path
 from dotenv import load_dotenv
 import sys
+import yaml
 
 # Đảm bảo import được core
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
@@ -13,9 +15,9 @@ load_dotenv()
 
 @st.cache_resource
 def load_engine():
-    # Khởi tạo RAGEngine
-    # Dùng cache để tránh load lại model 4GB mỗi lần bấm nút
-    config = {"rag": {"chunk_size": 1000, "chunk_overlap": 200}}
+    config_path = Path(__file__).resolve().parents[1] / "config" / "config.yaml"
+    with config_path.open("r", encoding="utf-8") as handle:
+        config = yaml.safe_load(handle)
     return RAGEngine(config)
 
 def init_page():
