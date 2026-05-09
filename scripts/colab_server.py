@@ -37,6 +37,7 @@ class GenerateRequest(BaseModel):
     prompt: str
     max_new_tokens: int = 512
     temperature: float = 0.3
+    repetition_penalty: float = 1.1
     mode: str = "ft"
 
 # --- LOAD MODEL ---
@@ -120,8 +121,8 @@ async def generate(request: GenerateRequest):
                 do_sample=True,
                 pad_token_id=tokenizer.pad_token_id,
                 eos_token_id=tokenizer.eos_token_id,
-                repetition_penalty=1.05, # Phi-3 rất nhạy cảm, chỉ nên để 1.0 hoặc 1.05
-                use_cache=False
+                repetition_penalty=request.repetition_penalty,
+                use_cache=True
             )
         
         # Decode và lấy phần trả lời (bỏ phần prompt ban đầu)

@@ -13,7 +13,7 @@ nltk==3.9.4
 numpy==2.4.4
 pandas==3.0.2
 peft==0.19.1
-protobuf==7.34.1
+protobuf==3.20.3
 pydantic==2.13.3
 pyngrok==8.1.2
 PyPDF2==3.0.1
@@ -27,3 +27,4 @@ torch==2.11.0
 tqdm==4.67.3
 transformers==5.7.0
 uvicorn==0.46.0
+evaluate

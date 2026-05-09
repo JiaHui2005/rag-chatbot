@@ -140,18 +140,12 @@ class RAGEngine:
         # 🔥 PROMPT (ANTI-LAN-MAN)
         # ========================
         self.rag_prompt = PromptTemplate(
-            template="""Bạn là trợ lý pháp lý Việt Nam. Trả lời dựa đúng vào TÀI LIỆU.
+            template="""Bạn là trợ lý pháp lý Việt Nam chuyên về Luật Đất đai. Hãy trả lời câu hỏi dựa trên TÀI LIỆU được cung cấp.
 
-YÊU CẦU:
-- Chỉ dùng thông tin có trong TÀI LIỆU.
-- Ưu tiên điều luật liên quan trực tiếp nhất.
-- Nếu TÀI LIỆU không đủ để trả lời, nói rõ là chưa đủ căn cứ.
-- Không bịa thêm chủ thể, thủ tục hoặc điều kiện ngoài tài liệu.
-
-CÁCH TRẢ LỜI:
-- Mở đầu bằng điều luật chính nếu có.
-- Trả lời dạng gạch đầu dòng, ngắn gọn.
-- Với câu hỏi pháp luật rộng, tóm tắt các ý chính thay vì chép dài.
+- KHÔNG TỰ SUY DIỄN: Chỉ dùng thông tin có trong tài liệu. Nếu tài liệu không có thông tin, hãy báo chưa tìm thấy quy định.
+- LINH HOẠT VĂN PHONG: Có thể giải thích dễ hiểu nếu được yêu cầu, nhưng nội dung pháp lý phải tuyệt đối trung thành với tài liệu.
+- TRẢ LỜI TẬP TRUNG: Chỉ chọn lọc thông tin liên quan trực tiếp đến câu hỏi.
+- NÊU NGUỒN: Luôn mở đầu bằng số Điều/Khoản nếu có.
 
 TÀI LIỆU:
 {context}
@@ -161,6 +155,22 @@ CÂU HỎI:
 
 TRẢ LỜI:""",
             input_variables=["context", "question"]
+        )
+
+        self.classifier_prompt = PromptTemplate(
+            template="""Bạn là chuyên gia phân loại câu hỏi. Hãy xác định mục đích chính của câu hỏi dưới đây.
+
+Câu hỏi: "{question}"
+
+QUY TẮC PHÂN LOẠI:
+- Trả về 'LEGAL' nếu câu hỏi hỏi về: Thủ tục đất đai, quy định pháp luật Việt Nam, tranh chấp nhà đất, các Điều/Khoản luật.
+- Trả về 'OTHER' nếu câu hỏi hỏi về: Lập trình (Python, Code...), toán học, văn học, hoặc các yêu cầu thực hiện tác vụ máy tính không liên quan đến luật.
+
+LƯU Ý ĐẶC BIỆT: Các câu hỏi có chứa từ "kiểm tra" nhưng đối tượng là "số", "mã", "code" thì phải là 'OTHER'.
+
+Chỉ trả về duy nhất từ 'LEGAL' hoặc 'OTHER'.
+Kết quả:""",
+            input_variables=["question"]
         )
 
         self.no_rag_prompt = PromptTemplate(
@@ -204,25 +214,9 @@ TRẢ LỜI:""",
                 docs.append(Document(page_content=record["text"], metadata=metadata))
         return docs
 
-    def is_legal_query(self, question: str) -> bool:
-        # 1. Kiểm tra qua từ khóa (Cách nhẹ nhất)
-        legal_keywords = ["luật", "đất đai", "quy định", "thủ tục", "nghị định", "thông tư", "quyền", "nghĩa vụ", "tranh chấp"]
-        question_lower = question.lower()
-        
-        # Nếu có từ khóa pháp lý rõ ràng, cho qua luôn
-        if any(kw in question_lower for kw in legal_keywords):
-            return True
-        
-        # 2. (Nâng cao) Dùng LLM để phân loại nhanh
-        # Bạn có thể dùng một prompt cực ngắn để LLM xác định True/False
-        # Nhưng để tiết kiệm, bước 1 là đủ dùng cho mức độ cơ bản.
-        return False
-
     def calculate_top_score(self, doc: Document, query: str) -> float:
-        # Tái sử dụng logic chấm điểm của bạn để kiểm tra ngưỡng
         keywords = self.extract_keywords(query)
         text = doc.page_content.lower()
-        # Tính toán điểm dựa trên keywords, tương tự như trong rerank_documents
         score = sum(2.0 for kw in keywords if kw in text)
         if " ".join(keywords) in text:
             score += 5.0
@@ -289,7 +283,7 @@ TRẢ LỜI:""",
         return f"{cleaned} {' '.join(expansions)}"
 
     # ========================
-    # 🔹 KEYWORD EXTRACTION (nhẹ)
+    # 🔹 KEYWORD EXTRACTION
     # ========================
     def tokenize(self, text: str) -> List[str]:
         return re.findall(r"\w+", text.lower())
@@ -500,7 +494,7 @@ TRẢ LỜI:""",
 
         top_score = self.calculate_top_score(ranked[0], query) 
             
-        if top_score < 5.0: # Ngưỡng này bạn cần tinh chỉnh dựa trên thực tế
+        if top_score < 5.0: 
             return query, []
 
         return query, ranked[:final_k]
@@ -610,14 +604,21 @@ TRẢ LỜI:""",
             lines.append(cleaned)
         return lines or [text]
 
+    def classify_query(self, question: str, llm) -> str:
+        """Sử dụng LLM để xác định câu hỏi có thuộc lĩnh vực luật đất đai không."""
+        try:
+            classifier_llm = llm.copy(update={"mode": "base"})
+            chain = self.classifier_prompt | classifier_llm
+            result = chain.invoke({"question": question}).strip().upper()
+            return "LEGAL" if "LEGAL" in result else "OTHER"
+        except:
+            return "LEGAL" 
+
     # ========================
     # 🔹 QUERY
     # ========================
     def query(self, question: str, mode: str = "base"):
         try:
-            # if not self.is_legal_query(question):
-            #     return "Xin lỗi, tôi là trợ lý chuyên về Luật Đất đai Việt Nam. Tôi không thể trả lời các câu hỏi ngoài lĩnh vực này."
-
             if not self.llm.api_url:
                 return "Chưa cấu hình API"
 
@@ -633,9 +634,11 @@ TRẢ LỜI:""",
             # ========================
             # 🔹 RAG
             # ========================
-            if not self.is_legal_query(question):
-                return "Xin lỗi, ở chế độ tra cứu luật, tôi chỉ có thể hỗ trợ các vấn đề liên quan đến Luật Đất đai Việt Nam."
-    
+            # 1. Phân loại câu hỏi bằng LLM trước
+            category = self.classify_query(question, llm)
+            if category == "OTHER":
+                return "Xin lỗi, tôi là trợ lý chuyên sâu về Luật Đất đai Việt Nam. Tôi không thể hỗ trợ các câu hỏi không liên quan đến lĩnh vực này (như lập trình, toán học, hoặc các chủ đề đời sống khác)."
+
             if not self.vector_db and not self.bm25_retriever:
                 return "Chưa load tài liệu"
 

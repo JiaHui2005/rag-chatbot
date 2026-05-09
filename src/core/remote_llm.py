@@ -7,6 +7,7 @@ class RemoteLLM(LLM):
     api_url: str
     max_new_tokens: int = 512
     temperature: float = 0.3
+    repetition_penalty: float = 1.2
     mode: str = "ft"
 
     @property
@@ -28,6 +29,7 @@ class RemoteLLM(LLM):
             "prompt": prompt,
             "max_new_tokens": self.max_new_tokens,
             "temperature": self.temperature,
+            "repetition_penalty": self.repetition_penalty,
             "mode": self.mode
         }
         

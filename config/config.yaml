@@ -6,7 +6,8 @@ rag:
   chunk_size: 1000
   chunk_overlap: 200
   vector_store: "chroma"
-  embedding_backend: "simple"
+  embedding_backend: "huggingface"
+  # embedding_backend: "simple"
   embedding_model: "all-MiniLM-L6-v2"
   persist_dir: "db/chroma"
   collection_name: "land_law_rag"
@@ -16,10 +17,10 @@ rag:
   final_k: 5
   max_chars_per_doc: 1800
   min_high_confidence_docs: 2
-  use_extractive_answer: true
+  use_extractive_answer: false
   max_extractive_bullets: 12
 
 llm:
-  provider: "openai"
-  model: "gpt-3.5-turbo"
-  temperature: 0.7
+  provider: "Alibaba"
+  model: "Qwen/Qwen2.5-3B-Instruct"
+  temperature: 0.3
