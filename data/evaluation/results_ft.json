@@ -2,501 +2,501 @@
     {
         "query": "Nội dung Điều 164. (Hạ tầng kỹ thuật công nghệ thông tin và phần mềm của Hệ thống thông tin quốc gia về đất đai) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.006839969407745798,
-        "rouge_l": 0.23780487804878045,
-        "bert_f1": 0.685490608215332,
+        "bleu": 0.07332907976328273,
+        "rouge_l": 0.3829787234042553,
+        "bert_f1": 0.7326086163520813,
         "retrieval_time": 0,
-        "generation_time": 15.630833148956299,
-        "answer": "Nội dung đề đối tượng, điều 164 cấp hạ tầng kỹ thuật công nghệ phải phù hợp với quy hoạch đất và đảm bảo quản lý, quản lý, hỗ trợ, thông tin, thực hiện các hoạt động liên quan đến đất đai."
+        "generation_time": 12.610217571258545,
+        "answer": "Điều 164 của Luật Đất đai 2024 quy định về nội dung Hệ thống thông tin quốc gia về đất đai, bao gồm hạ tầng kỹ thuật công nghệ thông tin và phần mềm của hệ thống này. Tuy nhiên, để có thông tin chi tiết và chính xác, bạn cần tham khảo trực tiếp văn bản pháp luật hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Luật Đất đai quy định về quy hoạch sử dụng đất cấp huyện như thế nào?",
         "recall_at_5": 0,
-        "bleu": 1.306677277399898e-12,
-        "rouge_l": 0.07365439093484419,
-        "bert_f1": 0.6677736043930054,
+        "bleu": 1.5922972114781475e-05,
+        "rouge_l": 0.1460373998219056,
+        "bert_f1": 0.6782312393188477,
         "retrieval_time": 0,
-        "generation_time": 10.137616395950317,
-        "answer": "Các quy hoạch sử dụng đất cấp huyện phải được quản lý, cập nhật, giao đất và thực hiện theo quy định của pháp luật."
+        "generation_time": 11.582730054855347,
+        "answer": "Theo Điều 243 của Luật Đất đai, quy hoạch sử dụng đất cấp huyện được thực hiện dựa trên các nguyên tắc quy định tại điều luật này. Tuy nhiên, để có thông tin chi tiết và chính xác, bạn cần tham khảo trực tiếp Điều 243 của Luật Đất đai để hiểu rõ về nội dung cụ thể của quy hoạch sử dụng đất cấp huyện."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định giao đất, cho thuê đất thông qua đấu thầu lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất như thế nào?",
         "recall_at_5": 0,
-        "bleu": 1.5484427717182712e-23,
-        "rouge_l": 0.03301587301587301,
-        "bert_f1": 0.6415602564811707,
+        "bleu": 7.4492857894003594e-06,
+        "rouge_l": 0.1315002988643156,
+        "bert_f1": 0.7193978428840637,
         "retrieval_time": 0,
-        "generation_time": 8.783143997192383,
-        "answer": "Đấu thầu lựa chọn thực hiện dự án đầu tư sẽ được giao theo quy định của Luật Đất đai 2024."
+        "generation_time": 15.859815835952759,
+        "answer": "Theo Điều 29 của Luật Đất đai năm 2024, khi Nhà nước giao đất, cho thuê đất thông qua đấu thầu lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất, quy định sẽ được thực hiện theo các hướng dẫn cụ thể trong luật. Tuy nhiên, để có thông tin chi tiết và chính xác, bạn cần tham khảo trực tiếp Điều 29 của Luật Đất đai năm 2024 hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Luật Đất đai quy định về bồi thường chi phí di chuyển tài sản khi Nhà nước thu hồi đất như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.0557975597499978,
-        "rouge_l": 0.34517766497461927,
-        "bert_f1": 0.764460027217865,
+        "bleu": 0.1293738485224039,
+        "rouge_l": 0.3938223938223938,
+        "bert_f1": 0.7200112342834473,
         "retrieval_time": 0,
-        "generation_time": 14.616778135299683,
-        "answer": "Luật Đất đai định giá 2024 cấp 10, quy định rõ ràng rằng Nhà nước thu hồi đất sẽ bồi thường chi phí di chuyển tài sản theo điều 104, điều 105 và điều 106."
+        "generation_time": 12.514298677444458,
+        "answer": "Theo Điều 90 của Luật Đất đai, khi Nhà nước thu hồi đất và phải di chuyển tài sản, chi phí di chuyển sẽ được bồi thường theo quy định cụ thể của pháp luật. Tuy nhiên, để có thông tin chính xác nhất, bạn cần tham khảo thêm các điều khoản liên quan trong Luật Đất đai hiện hành hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn chi tiết."
     },
     {
         "query": "Nội dung Điều 55. (Trách nhiệm tổ chức thực hiện điều tra, đánh giá đất đai, bảo vệ, cải tạo, phục hồi đất) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 2.8922861065389633e-06,
-        "rouge_l": 0.12359550561797752,
-        "bert_f1": 0.7054345011711121,
+        "bleu": 0.09130626715638021,
+        "rouge_l": 0.3725690890481064,
+        "bert_f1": 0.7413147687911987,
         "retrieval_time": 0,
-        "generation_time": 14.44613528251648,
-        "answer": "Trường hợp đất đai được cấp sổ đỏ, điều tra, đánh giá đất đai, bảo vệ, cải tạo, phục hồi đất phải được thực hiện theo quy định của Luật Đất đai 2024."
+        "generation_time": 32.15410089492798,
+        "answer": "Theo Điều 55 của Luật Đất đai 2024, tổ chức thực hiện điều tra, đánh giá đất đai, bảo vệ, cải tạo, phục hồi đất có trách nhiệm thực hiện các hoạt động sau: \n\n1. Thực hiện việc điều tra, đánh giá đất đai để xác định tình trạng hiện tại của đất đai, bao gồm việc đánh giá chất lượng đất, mức độ ô nhiễm, và các yếu tố khác liên quan đến chất lượng đất.\n\n2. Báo cáo kết quả điều tra, đánh giá đất đai cho cơ quan có thẩm quyền để có thể đưa ra các quyết định phù hợp.\n\n3. Cải tạo đất đai bằng cách sử dụng các phương pháp kỹ thuật để cải thiện chất lượng đất, giảm thiểu tác động xấu đến đất.\n\n4. Phục hồi đất đai khi cần thiết, bao gồm việc xử lý các khu vực bị ô nhiễm hoặc bị thoái hóa để phục hồi đất đai trở lại trạng thái ban đầu hoặc trạng thái tốt hơn.\n\nTổ chức này cũng cần tuân thủ các quy định pháp luật liên quan và báo cáo thường xuyên cho cơ quan có thẩm quyền để đảm bảo rằng họ đang thực hiện đúng quy định của pháp luật."
     },
     {
         "query": "Nội dung Điều 148. (Cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với tài sản là nhà ở) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 1.4591121899533153e-09,
-        "rouge_l": 0.09152752009894867,
-        "bert_f1": 0.7135112881660461,
+        "bleu": 0.00017940175918490473,
+        "rouge_l": 0.17239370995923123,
+        "bert_f1": 0.7123680710792542,
         "retrieval_time": 0,
-        "generation_time": 20.273895263671875,
-        "answer": "Nội dung điều 148 quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với tài sản là nhà ở là cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của Luật Đất đai 2024."
+        "generation_time": 18.360267877578735,
+        "answer": "Theo Điều 148 của Luật Đất đai 2024, khoản 1 quy định về việc cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với tài sản là nhà ở. Cụ thể, Điều này quy định về quy trình và điều kiện để cấp Giấy chứng nhận cho người sở hữu tài sản nhà ở, đảm bảo quyền lợi và nghĩa vụ của người sử dụng đất theo quy định của pháp luật. Tuy nhiên, để có thông tin chi tiết và chính xác nhất, bạn nên tham khảo trực tiếp văn bản pháp luật hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Nội dung Điều 186. (Đất rừng đặc dụng) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.0024503466723866077,
-        "rouge_l": 0.19831223628691982,
-        "bert_f1": 0.6964897513389587,
+        "bleu": 0.05439505673042873,
+        "rouge_l": 0.3275862068965517,
+        "bert_f1": 0.6973870396614075,
         "retrieval_time": 0,
-        "generation_time": 18.411941051483154,
-        "answer": "Nội dung đề hạn của Điều 186. (Đất rừng đặc dụng) là quy định về việc sử dụng đất rừng đặc dụng, cấp giấy chứng nhận, quy hoạch sử dụng đất, và các hình thức hợp tác liên quan đến đất rừng đặc dụng."
+        "generation_time": 18.504879236221313,
+        "answer": "Theo Điều 186 của Luật Đất đai 2024, nội dung này quy định về việc sử dụng đất rừng đặc dụng. Đất rừng đặc dụng là loại đất có mục đích sử dụng riêng biệt để bảo vệ môi trường, phục hồi đất rừng bị thoái hóa. Điều này bao gồm các quy định về quyền sử dụng đất, thời hạn sử dụng đất, và các nghĩa vụ khác liên quan đến việc sử dụng đất rừng đặc dụng. Tuy nhiên, để có thông tin chính xác và chi tiết, bạn nên tham khảo trực tiếp văn bản pháp luật hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Luật Đất đai quy định về bồi thường đối với cây trồng, vật nuôi như thế nào?",
         "recall_at_5": 0,
-        "bleu": 2.5369678506730346e-11,
-        "rouge_l": 0.08185538881309685,
-        "bert_f1": 0.6563402414321899,
+        "bleu": 0.0010594444618470455,
+        "rouge_l": 0.20024721878862795,
+        "bert_f1": 0.6798461079597473,
         "retrieval_time": 0,
-        "generation_time": 8.128497838973999,
-        "answer": "Cây trồng và vật nuôi được bồi thường theo đúng quy định về bồi thường đối với cây trồng."
+        "generation_time": 12.754775047302246,
+        "answer": "Theo Điều 103 của Luật Đất đai, khi Nhà nước thu hồi đất để bồi thường về cây trồng và vật nuôi, mức bồi thường sẽ được quy định cụ thể trong điều luật liên quan. Tuy nhiên, để có thông tin chính xác và chi tiết, bạn cần tham khảo trực tiếp Điều 103 của Luật Đất đai hoặc liên hệ với cơ quan chức năng để được tư vấn cụ thể."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định về cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với đất xây dựng khu đô thị, khu dân cư nông thôn, dự án sản xuất, kinh doanh có nhiều mục đích sử dụng đất khác nhau như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.002548129524681846,
-        "rouge_l": 0.22923976608187135,
-        "bert_f1": 0.6967766284942627,
+        "bleu": 0.03712203587256833,
+        "rouge_l": 0.2986611740473738,
+        "bert_f1": 0.7109957933425903,
         "retrieval_time": 0,
-        "generation_time": 25.73908233642578,
-        "answer": "Các mục đích sử dụng đất khác nhau với đất xây dựng khu đô thị, khu dân cư nông thôn, dự án sản xuất, kinh doanh bao gồm:\n\n- Đất để làm đồng bỏ, thương mại, thương mại tài chính, tài sản gắn liền, tài sản tư sản, tài sản nhà đất, tài sản nông nghiệp, tài sản phục vụ dịch vụ, tài sản gắn liền với các dụng vụ khác."
+        "generation_time": 27.60741353034973,
+        "answer": "Theo Điều 193 của Luật Đất đai số 46/2013/QH13, sau khi được sửa đổi, bổ sung bởi Luật số 23/2018/QH14, Luật số 46/2020/QH15 và Luật số 27/2022/QH15, việc cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất sẽ được thực hiện theo quy định mới. Khi xác định diện tích đất để cấp Giấy chứng nhận, cần phải phân loại đối với từng mục đích sử dụng đất khác nhau. Cụ thể, việc cấp Giấy chứng nhận sẽ bao gồm việc xác định rõ diện tích đất, mục đích sử dụng đất và các điều kiện pháp lý liên quan đến việc sử dụng đất. Để đảm bảo tuân thủ đúng quy định, bạn nên tham khảo thêm các văn bản hướng dẫn thi hành Luật Đất đai để có thông tin chi tiết và chính xác nhất."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định đất tôn giáo như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.0023314986375477563,
-        "rouge_l": 0.2378854625550661,
-        "bert_f1": 0.6936173439025879,
+        "bleu": 0.0,
+        "rouge_l": 0.23123732251521298,
+        "bert_f1": 0.6359110474586487,
         "retrieval_time": 0,
-        "generation_time": 19.747596502304077,
-        "answer": "Luật đất đai năm 2024 quy định rõ ràng rằng đất tôn giáo phải được sử dụng đúng mục đích, được sử dụng tối đa và được quản lý thống nhất, đồng thời không được giao hoặc thu hồi cho người không đầu tư vào đất tôn giáo."
+        "generation_time": 20.098912477493286,
+        "answer": "Theo Điều 33 của Luật Đất đai số 45/2013/QH13, Luật Đất đai số 26/2013/QH13 và Luật Đất đai số 39/2013/QH13, Luật Đất đai số 33/2024/QH15, đất tôn giáo được quy định cụ thể tại các khoản 7, 8 và 9 của điều luật này. Tuy nhiên, để có thông tin chính xác và chi tiết, bạn nên tham khảo trực tiếp nội dung của Điều 33 trong Luật Đất đai số 33/2024/QH15."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định đất quốc phòng, an ninh như thế nào?",
         "recall_at_5": 0,
-        "bleu": 1.3874615423741873e-06,
-        "rouge_l": 0.11320754716981134,
-        "bert_f1": 0.6765566468238831,
+        "bleu": 0.01992860646784442,
+        "rouge_l": 0.2207130730050934,
+        "bert_f1": 0.6286618113517761,
         "retrieval_time": 0,
-        "generation_time": 9.41621208190918,
-        "answer": "Luật đất đai năm 2024 quy định đất quốc phòng, an ninh quy định trước nhưng được cấp phê duyệt 2024."
+        "generation_time": 25.98513388633728,
+        "answer": "Theo Điều 1 của Luật Đất đai số 45/2013/QH13, Luật Đất đai số 26/2013/QH13 và Luật Đất đai số 39/2013/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 26/2018/QH14, Luật số 29/2019/QH14 và Luật số 35/2020/QH14, thì Luật Đất đai số 36/2024/QH15 sẽ quy định về đất quốc phòng, an ninh. Tuy nhiên, để có thông tin chi tiết và chính xác nhất, bạn nên tham khảo trực tiếp nội dung của Luật số 36/2024/QH15 hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Luật Đất đai quy định về cơ quan, đơn vị, tổ chức có trách nhiệm thực hiện nhiệm vụ bồi thường, hỗ trợ, tái định cư; quản lý, khai thác, sử dụng quỹ đất đã thu hồi như thế nào?",
         "recall_at_5": 0,
-        "bleu": 4.429495377162376e-05,
-        "rouge_l": 0.1168091168091168,
-        "bert_f1": 0.6885508894920349,
+        "bleu": 0.02239233437780882,
+        "rouge_l": 0.3028083028083028,
+        "bert_f1": 0.7632351517677307,
         "retrieval_time": 0,
-        "generation_time": 14.56752896308899,
-        "answer": "Các cơ quan, đơn vị, tổ chức này phải tuân thủ đúng quy định về đất đai, bồi thường, hỗ trợ, tái định cư, quản lý, khai thác, sử dụng quỹ đất đã thu hồi theo quy định."
+        "generation_time": 17.45799231529236,
+        "answer": "Theo Điều 1 của Luật Đất đai, Ủy ban nhân dân cấp tỉnh sẽ thực hiện nhiệm vụ bồi thường, hỗ trợ, tái định cư theo quy định của pháp luật về bồi thường, hỗ trợ, tái định cư khi Nhà nước thu hồi đất. Đối với diện tích đất còn lại sau khi thực hiện phương án bồi thường, hỗ trợ, tái định cư, Ủy ban nhân dân cấp tỉnh sẽ quản lý, khai thác, sử dụng quỹ đất đó theo quy định của pháp luật. Việc này nhằm đảm bảo quyền lợi cho người bị ảnh hưởng và thực hiện đúng các quy định pháp luật hiện hành."
     },
     {
         "query": "Luật Đất đai quy định phân loại đất như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.0,
-        "rouge_l": 0.20124223602484473,
-        "bert_f1": 0.6545922160148621,
+        "bleu": 0.00018360628537725986,
+        "rouge_l": 0.17548387096774193,
+        "bert_f1": 0.6657228469848633,
         "retrieval_time": 0,
-        "generation_time": 41.28821659088135,
-        "answer": "Luật Đất đai định giá 2024 phân loại đất theo các loại như đất ở, đất thuê, đất thuê ổn định, đất thuê thương mại, đất thuê thương mại ổn định, đất thuê thương mại thuê ổn định, đất thuê thương mại thuê ổn định, đất thuê thương mại thuê ổn định, đất thuê thương mại thuê ổn định, đất thuê thương mại thuê ổn định, đất thuê thương mại thuê ổn định, đất thuê thương mại thuê ổn định, đất thuê thương mại thuê ổn định và đất không thuê thương mại."
+        "generation_time": 10.162463665008545,
+        "answer": "Theo Điều 9 của Luật Đất đai, phân loại đất được thực hiện dựa trên mục đích sử dụng và thuộc nhóm sau: Ia - đất nông nghiệp; Ib - đất phi nông nghiệp. Tuy nhiên, cần lưu ý rằng việc phân loại cụ thể có thể phụ thuộc vào quy định chi tiết của từng nước và từng loại đất."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định về cho thuê đất như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.0013676117342461692,
-        "rouge_l": 0.2443064182194617,
-        "bert_f1": 0.6790491342544556,
+        "bleu": 0.020975555524007015,
+        "rouge_l": 0.2284644194756554,
+        "bert_f1": 0.6251136660575867,
         "retrieval_time": 0,
-        "generation_time": 20.04272699356079,
-        "answer": "Luật đất đai 2024 quy định cho thuê đất như sau: Đất đai có thể được thuê cho người dân tộc thiểu số, người dân tộc thiểu số thuộc đất đai, đơn vị nhà nước, các tổ chức nhà nước và các nhà nước thuộc tổ chức nhà nước có thẩm quyền."
+        "generation_time": 19.68456196784973,
+        "answer": "Theo Điều 43 của Luật Đất đai số 45/2013/QH13, đã được sửa đổi và bổ sung bởi Luật số 26/2018/QH14, Luật Đất đai số 39/2013/QH13 và Luật số 27/2020/QH14, việc cho thuê đất sẽ được thực hiện theo quy định của Luật này. Tuy nhiên, để có thông tin chi tiết và chính xác nhất, bạn nên tham khảo trực tiếp Điều 43 của Luật Đất đai năm 2024 hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Nội dung Điều 63. (Kinh phí cho hoạt động quy hoạch) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.11645662923563568,
-        "rouge_l": 0.39999999999999997,
-        "bert_f1": 0.7601696252822876,
+        "bleu": 0.3166639782634965,
+        "rouge_l": 0.5888324873096448,
+        "bert_f1": 0.8248736262321472,
         "retrieval_time": 0,
-        "generation_time": 14.80608606338501,
-        "answer": "Điều 63 quy định cấp giá trị kinh phí cho hoạt động quy hoạch và hành chính, như trình học, đất đai, điều tra, đào tạo, hỗ trợ, bồi thường và phục vụ thực hiện quy hoạch và hành chính."
+        "generation_time": 15.48426628112793,
+        "answer": "Theo Điều 63 của Luật Đất đai 2024, khoản 1 quy định về việc phân bổ kinh phí cho các hoạt động quy hoạch liên quan đến đất đai. Cụ thể, kinh phí này được sử dụng cho các hoạt động như lập, điều chỉnh, thẩm định, quyết định, phê duyệt, công bố quy hoạch, kế hoạch sử dụng đất; đánh giá thành công của quy hoạch, kế hoạch sử dụng đất; và các hoạt động khác liên quan đến đất đai theo quy định của pháp luật."
     },
     {
         "query": "Luật Đất đai quy định về thu hồi đất vì mục đích quốc phòng, an ninh như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.00021818420254101565,
-        "rouge_l": 0.1691542288557214,
-        "bert_f1": 0.6989172697067261,
+        "bleu": 0.0366561796888601,
+        "rouge_l": 0.3132530120481928,
+        "bert_f1": 0.7055767774581909,
         "retrieval_time": 0,
-        "generation_time": 11.510798215866089,
-        "answer": "Luật Đất đai đặc thù quy định về thu hồi đất cho các nơi có trách nhiệm quốc phòng, an ninh theo quy định của pháp luật về đất đai và an ninh."
+        "generation_time": 15.22494649887085,
+        "answer": "Theo Điều 12 của Luật Đất đai, việc thu hồi đất vì mục đích quốc phòng, an ninh được thực hiện theo quy định tại khoản 1 của điều này. Cụ thể, khi cần thiết cho mục đích quốc phòng, an ninh, Nhà nước có quyền thu hồi đất của người dân hoặc tổ chức đó. Tuy nhiên, việc thu hồi phải đảm bảo tuân thủ các quy định pháp luật hiện hành, bao gồm việc thông báo đầy đủ, công bằng và bồi thường hợp lý cho người bị ảnh hưởng."
     },
     {
         "query": "Các hành vi bị nghiêm cấm trong lĩnh vực đất đai là gì?",
         "recall_at_5": 0,
-        "bleu": 0.009273905954169324,
-        "rouge_l": 0.2523809523809524,
-        "bert_f1": 0.69209885597229,
+        "bleu": 0.04419923499930569,
+        "rouge_l": 0.33050847457627114,
+        "bert_f1": 0.7337431907653809,
         "retrieval_time": 0,
-        "generation_time": 21.50665044784546,
-        "answer": "Các hành vi bị nghiêm cấm trong lĩnh vực đất đai bao gồm việc sử dụng đất không đúng quy hoạch, thay đổi mục đích sử dụng, thu hồi đất không đúng định giá, thu hồi đất không đúng quy hoạch, thu hồi đất không đúng định giá và thu hồi đất không đúng quy hoạch."
+        "generation_time": 14.6432785987854,
+        "answer": "Theo Điều 5 của Luật Đất đai, các hành vi bị nghiêm cấm trong lĩnh vực đất đai bao gồm: Hành vi chiếm dụng đất đai trái pháp luật; hành vi làm mất mát, thau biến tài sản gắn liền với đất; hành vi vi phạm quy định về bảo vệ môi trường trong quản lý và sử dụng đất đai. Tuy nhiên, để có thông tin chính xác và đầy đủ, bạn nên tham khảo trực tiếp Điều 5 của Luật Đất đai hiện hành."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định thời hạn sử dụng đất khi chuyển mục đích sử dụng đất như thế nào?",
         "recall_at_5": 0,
-        "bleu": 1.249860070847776e-05,
-        "rouge_l": 0.1418918918918919,
-        "bert_f1": 0.665815532207489,
+        "bleu": 0.013144645019282744,
+        "rouge_l": 0.22974963181148747,
+        "bert_f1": 0.6316689252853394,
         "retrieval_time": 0,
-        "generation_time": 14.507875919342041,
-        "answer": "Luật Đất đai 2024 quy định chuyển mục đích sử dụng đất như đất đai được sử dụng cho các nhóm thuộc quốc phòng khác quốc gia nhưng không được sử dụng ở đâu."
+        "generation_time": 20.474036931991577,
+        "answer": "Theo Điều 23 của Luật Đất đai số 45/2013/QH13, Luật Đất đai số 26/2013/QH13, Luật Đất đai số 33/2013/QH13 và Luật Đất đai số 28/2018/QH14, thời hạn sử dụng đất khi chuyển mục đích sử dụng đất sẽ được quy định cụ thể trong các điều khoản liên quan. Tuy nhiên, để có thông tin chính xác và chi tiết, bạn nên tham khảo trực tiếp các điều luật cụ thể trong Luật Đất đai hiện hành hoặc liên hệ với cơ quan chức năng để được tư vấn cụ thể."
     },
     {
         "query": "Trách nhiệm của Nhà nước trong việc cung cấp thông tin đất đai được quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.003610571240004026,
-        "rouge_l": 0.26402640264026406,
-        "bert_f1": 0.702619731426239,
+        "bleu": 0.2020495170232439,
+        "rouge_l": 0.4801980198019802,
+        "bert_f1": 0.7890122532844543,
         "retrieval_time": 0,
-        "generation_time": 11.691622495651245,
-        "answer": "Trách nhiệm của Nhà nước là cung cấp, cập nhật, cập nhật và cập nhật các thông tin đất đai, điều tra và cấp giấy phép cho các cơ quan có thẩm quyền."
+        "generation_time": 16.28641700744629,
+        "answer": "Theo Điều 18 của luật đất đai, Nhà nước có trách nhiệm bảo đảm quyền tiếp cận của người sử dụng đất đối với Hệ thống thông tin quốc gia về đất đai. Cụ thể, Nhà nước sẽ cung cấp thông tin đất đai đã công bố cho Nhà nước, Ủy ban nhân dân cấp tỉnh và các thông tin khác theo quy định của Luật này. Đồng thời, Nhà nước cũng sẽ công bố kịp thời các thông tin liên quan đến quản lý, sử dụng đất đai khi có yêu cầu từ người sử dụng đất hoặc tổ chức, cá nhân khác."
     },
     {
         "query": "Luật Đất đai quy định việc xác định loại đất dựa trên những căn cứ nào?",
         "recall_at_5": 0,
-        "bleu": 0.001211987771973619,
-        "rouge_l": 0.21409921671018278,
-        "bert_f1": 0.7006555795669556,
+        "bleu": 0.06842443035285266,
+        "rouge_l": 0.3557483731019523,
+        "bert_f1": 0.7499199509620667,
         "retrieval_time": 0,
-        "generation_time": 12.689010381698608,
-        "answer": "Luật đất đai quy định xác định loại đất dựa trên giá trị, tính chất, điều kiện sử dụng đất, và kết quả thực hiện sử dụng đất theo quy định."
+        "generation_time": 13.917480230331421,
+        "answer": "Theo Điều 119 của Luật Đất đai, việc xác định loại đất dựa trên các căn cứ sau đây: a) Hiện trạng sử dụng đất; b) Nhu cầu sử dụng đất theo quy định của pháp luật về đất đai và các quy định khác của pháp luật có liên quan; c) Phù hợp với quy hoạch sử dụng đất cấp huyện hoặc quy hoạch sử dụng đất cấp xã (trường hợp xác định loại đất theo phân loại đất sử dụng)."
     },
     {
         "query": "Luật Đất đai quy định về trình tự, thủ tục bồi\nthường, hỗ trợ, tái định cư, thu hồi đất vì mục đích quốc phòng, an ninh; phát\ntriển kinh tế - xã hội vì lợi ích quốc gia, công cộng như thế nào?",
         "recall_at_5": 0,
-        "bleu": 7.204738042277008e-57,
-        "rouge_l": 0.01409313725490196,
-        "bert_f1": 0.5971395969390869,
+        "bleu": 1.2140845291854536e-10,
+        "rouge_l": 0.06927175843694494,
+        "bert_f1": 0.6951532363891602,
         "retrieval_time": 0,
-        "generation_time": 6.786283016204834,
-        "answer": "Phát triển kinh tế - xã hội là mục đích chính của Luật Đất đai 2024 như vậy."
+        "generation_time": 16.026944637298584,
+        "answer": "Theo Điều 118 của Luật Đất đai, trình tự và thủ tục bồi thường, hỗ trợ, tái định cư khi Nhà nước thu hồi đất hoặc các trường hợp khác vì mục đích quốc phòng, an ninh, phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng sẽ được quy định cụ thể trong luật. Tuy nhiên, để có thông tin chi tiết và chính xác, bạn cần tham khảo trực tiếp Điều 118 của Luật Đất đai để hiểu rõ về các quy định cụ thể áp dụng cho từng trường hợp."
     },
     {
         "query": "Luật Đất đai quy định bồi thường về đất khi Nhà nước\nthu hồi đất ở như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.0,
-        "rouge_l": 0.11347517730496455,
-        "bert_f1": 0.6852991580963135,
+        "bleu": 0.10697379933755659,
+        "rouge_l": 0.41269841269841273,
+        "bert_f1": 0.7197301983833313,
         "retrieval_time": 0,
-        "generation_time": 6.939107656478882,
-        "answer": "Nhà nước sẽ bồi thường theo đúng quy định về đất đã được thu hồi."
+        "generation_time": 18.20199966430664,
+        "answer": "Theo Điều 103 của Luật Đất đai, việc bồi thường về đất khi Nhà nước thu hồi đất ở phải phù hợp với điều kiện và tiêu chuẩn bồi thường quy định tại Luật này. Cụ thể, mức bồi thường sẽ dựa trên giá trị của đất tại thời điểm thu hồi, cũng như các yếu tố khác như vị trí, diện tích, mục đích sử dụng đất và tình trạng pháp lý của tài sản gắn liền với đất. Để có thông tin chi tiết và chính xác, bạn nên tham khảo trực tiếp Điều 103 của Luật Đất đai hoặc liên hệ với cơ quan chức năng để được tư vấn cụ thể."
     },
     {
         "query": "Nội dung Điều 212. (Đất tín ngưỡng) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.0,
-        "rouge_l": 0.32967032967032966,
-        "bert_f1": 0.673258364200592,
+        "bleu": 0.16271494822947816,
+        "rouge_l": 0.40540540540540543,
+        "bert_f1": 0.7468637228012085,
         "retrieval_time": 0,
-        "generation_time": 21.80395007133484,
-        "answer": "Nội dung điều 212 quy định các đối tượng như cộng đồng thuộc nhóm người dân tộc thiểu số, các tổ chức nhà nước, các cơ quan, các chỗ địa lý của tổ chức nhà nước, các cơ quan nhà nước thuộc cấp, các cơ quan nhà nước thuộc nhà nước và các cơ quan nhà nước thuộc quốc gia."
+        "generation_time": 20.044529914855957,
+        "answer": "Điều 212 của Luật Đất đai 2024 quy định về việc quản lý và sử dụng đất tín ngưỡng. Cụ thể, Điều này nhằm bảo vệ, phát triển và tôn trọng giá trị của đất tín ngưỡng trong cộng đồng dân cư. Nội dung của Điều này sẽ bao gồm các quy định về diện tích, vị trí, mục đích sử dụng đất tín ngưỡng, cũng như các biện pháp bảo vệ, cải tạo, phát triển đất tín ngưỡng theo quy định của pháp luật. Tuy nhiên, để có thông tin chi tiết và chính xác nhất, bạn nên tham khảo trực tiếp văn bản pháp luật hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định về bồi thường, hỗ trợ, tái định cư đối với các trường hợp đặc biệt như thế nào?",
         "recall_at_5": 0,
-        "bleu": 1.0733415008651771e-07,
-        "rouge_l": 0.11076923076923079,
-        "bert_f1": 0.6619870662689209,
+        "bleu": 0.010164415875500637,
+        "rouge_l": 0.20132450331125828,
+        "bert_f1": 0.6260941624641418,
         "retrieval_time": 0,
-        "generation_time": 10.588673114776611,
-        "answer": "Các trường hợp đặc biệt có thể được công bố, hỗ trợ bồi thường, tái định cư trong quy định của Luật Đất đai năm khác."
+        "generation_time": 27.42599391937256,
+        "answer": "Theo Điều 45 của Luật Đất đai số 46/2013/QH13, Luật Đất đai số 21/2013/QH13, Luật Đất đai số 39/2013/QH13 và Luật Đất đai số 47/2013/QH13, Luật Đất đai số 23/2018/QH13, Luật Đất đai số 26/2020/QH13 và Luật Đất đai số 30/2020/QH13, việc bồi thường, hỗ trợ, tái định cư được quy định cụ thể cho từng trường hợp đặc biệt. Tuy nhiên, để có thông tin chính xác nhất, bạn nên tham khảo trực tiếp nội dung của Điều 45 trong Luật Đất đai số 30/2020/QH13 để nắm rõ các quy định mới nhất."
     },
     {
         "query": "Nội dung Điều 232. (Theo dõi và đánh giá đối với việc quản lý, sử dụng đất đai) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 7.009443993689741e-06,
-        "rouge_l": 0.12409812409812411,
-        "bert_f1": 0.6783388257026672,
+        "bleu": 0.02881860562307896,
+        "rouge_l": 0.325748502994012,
+        "bert_f1": 0.7324967980384827,
         "retrieval_time": 0,
-        "generation_time": 14.828380107879639,
-        "answer": "Nội dung điều 232 bao gồm quyền, trách nhiệm, phương án, nghĩa vụ, hành vi đối với quản lý, sử dụng đất đai và các cơ sở hữu nghĩa theo quy định của Luật Đất đai 2024."
+        "generation_time": 21.166738748550415,
+        "answer": "Điều 232 của Luật Đất đai 2024 quy định về việc theo dõi và đánh giá đối với việc quản lý, sử dụng đất đai. Cụ thể, Điều này nhằm mục đích kiểm tra và đánh giá hiệu quả trong việc quản lý và sử dụng đất đai trên địa bàn cả nước. Nội dung của Điều này bao gồm việc thu thập thông tin, đánh giá tác động của các chính sách, pháp luật liên quan đến đất đai, cũng như việc thực hiện các quy định về quản lý và sử dụng đất đai. Tuy nhiên, để có thông tin chi tiết và chính xác nhất, bạn nên tham khảo trực tiếp văn bản pháp luật hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Nội dung Điều 195. (Đất ở tại nông thôn) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.0008354947418027392,
-        "rouge_l": 0.20915032679738563,
-        "bert_f1": 0.7316094040870667,
+        "bleu": 0.04966639877983216,
+        "rouge_l": 0.326530612244898,
+        "bert_f1": 0.732176661491394,
         "retrieval_time": 0,
-        "generation_time": 11.570641994476318,
-        "answer": "Nội dung điều 195 quy định quyền lợi đất ở tại nông thôn và địa phương, phù hợp với quy hoạch đất và địa chính của nông nghiệp."
+        "generation_time": 13.953245639801025,
+        "answer": "Điều 195 của Luật Đất đai 2024 quy định về việc quản lý và sử dụng đất ở tại nông thôn. Cụ thể, Điều này nhằm mục đích bảo vệ môi trường, phát triển bền vững và đảm bảo quyền lợi hợp pháp cho người sử dụng đất. Tuy nhiên, để có thông tin chi tiết và chính xác, bạn nên tham khảo trực tiếp văn bản pháp luật hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Luật Đất đai quy định về thẩm quyền thu hồi đất liên quan đến quốc phòng, an ninh như thế nào?",
         "recall_at_5": 0,
-        "bleu": 1.2049643723973128e-11,
-        "rouge_l": 0.07669616519174043,
-        "bert_f1": 0.6454635262489319,
+        "bleu": 0.002474213035587388,
+        "rouge_l": 0.21716287215411556,
+        "bert_f1": 0.7022506594657898,
         "retrieval_time": 0,
-        "generation_time": 9.588027954101562,
-        "answer": "Các nhà nước cấp thẩm quyền thu hồi đất liên quan đến quốc phòng, an ninh, tổ chức quốc phòng, các trường hợp khác."
+        "generation_time": 18.00814151763916,
+        "answer": "Theo Điều 12 của Luật Đất đai, thẩm quyền thu hồi đất liên quan đến quốc phòng, an ninh được thực hiện khi đất đó bị ảnh hưởng bởi các hoạt động quốc phòng, an ninh quốc gia. Cụ thể, nếu đất đai bị ảnh hưởng bởi các hoạt động quân sự, an ninh quốc gia, thì cơ quan có thẩm quyền sẽ tiến hành thu hồi đất để đảm bảo an toàn và hiệu quả của các hoạt động quốc phòng, an ninh. Tuy nhiên, việc thu hồi đất cần phải tuân thủ theo quy định của pháp luật và đảm bảo quyền lợi hợp pháp của người sử dụng đất."
     },
     {
         "query": "Nội dung Điều 31. (Nghĩa vụ chung của người sử dụng đất) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.00139192798120069,
-        "rouge_l": 0.1619047619047619,
-        "bert_f1": 0.6750890612602234,
+        "bleu": 0.016891293819752202,
+        "rouge_l": 0.2897959183673469,
+        "bert_f1": 0.6603364944458008,
         "retrieval_time": 0,
-        "generation_time": 16.575812816619873,
-        "answer": "Luật Đất đai 2024 quy định rõ ràng ràng nhượng, thuê đất cho người sử dụng đất cho thuê đất ở, cho thuê đất ở cho thuê đất ở và cho thuê đất ở cho thuê đất ở theo quy định của UBND."
+        "generation_time": 14.494833946228027,
+        "answer": "Điều 31 của Luật Đất đai 2024 quy định về nghĩa vụ chung của người sử dụng đất. Tuy nhiên, thông tin chi tiết về nội dung cụ thể của Điều này chưa được cung cấp đầy đủ trong đoạn luật bạn cung cấp. Để có thông tin chính xác và đầy đủ, bạn nên tham khảo trực tiếp Điều 31 của Luật Đất đai 2024 hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn chi tiết."
     },
     {
         "query": "Luật Đất đai quy định việc xác định loại đất dựa trên những căn cứ nào?",
         "recall_at_5": 0,
-        "bleu": 0.00640097719024289,
-        "rouge_l": 0.2647754137115839,
-        "bert_f1": 0.6984993815422058,
+        "bleu": 0.04468960177539655,
+        "rouge_l": 0.32808988764044944,
+        "bert_f1": 0.7658896446228027,
         "retrieval_time": 0,
-        "generation_time": 20.25910782814026,
-        "answer": "Luật đất đai quy định việc xác định loại đất dựa trên những điều được cấp sổ đỏ, các hình thức thông thường, điều kiện thu hồi đất, giá đất đã được hợp tụ giá đất thế này, và các nguyên tắc hợp pháp liên quan đến việc sử dụng đất."
+        "generation_time": 11.264345407485962,
+        "answer": "Theo Điều 143 của Luật Đất đai, việc xác định loại đất dựa trên các căn cứ sau đây:\na) Hiện trạng sử dụng đất;\nb) Nhu cầu sử dụng đất và khả năng chuyển mục đích sử dụng đất theo quy định của pháp luật;\nc) Phù hợp với quy hoạch sử dụng đất cấp huyện hoặc quy hoạch sử dụng đất cấp tỉnh."
     },
     {
         "query": "Luật Đất đai quy định về quyền lựa chọn hình thức trả tiền thuê đất như thế nào?",
         "recall_at_5": 0,
-        "bleu": 3.355595589886962e-05,
-        "rouge_l": 0.15417558886509633,
-        "bert_f1": 0.6652301549911499,
+        "bleu": 0.008711805895769092,
+        "rouge_l": 0.26717557251908397,
+        "bert_f1": 0.6881646513938904,
         "retrieval_time": 0,
-        "generation_time": 11.58986496925354,
-        "answer": "Trường hợp cần thực hiện hình thức trả tiền thuê đất, người sử dụng đất có thể chọn hình thức trả tiền thuê đất theo thửa địa được."
+        "generation_time": 10.66043758392334,
+        "answer": "Theo Điều 158 của Luật Đất đai, Ủy ban nhân dân cấp tỉnh sẽ quyết định hình thức trả tiền thuê đất dựa trên tình hình thực tế tại địa phương. Do đó, để biết cụ thể về quyền lựa chọn hình thức trả tiền thuê đất, bạn cần liên hệ với Ủy ban nhân dân cấp tỉnh nơi có đất để được tư vấn chi tiết."
     },
     {
         "query": "Luật Đất đai quy định về bồi thường về đất khi Nhà nước thu hồi đất phi nông nghiệp không phải\nlà đất ở của tổ chức kinh tế, đơn vị sự nghiệp công lập, cộng đồng dân cư, tổ\nchức tôn giáo, tổ chức tôn giáo trực thuộc, người gốc Việt Nam định cư ở nước\nngoài, tổ chức nước ngoài có chức năng ngoại giao, tổ chức kinh tế có vốn đầu\ntư nước ngoài như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.01027186376535176,
-        "rouge_l": 0.30834512022630833,
-        "bert_f1": 0.7489786744117737,
+        "bleu": 0.2679568036782565,
+        "rouge_l": 0.5309734513274337,
+        "bert_f1": 0.7723784446716309,
         "retrieval_time": 0,
-        "generation_time": 27.444435596466064,
-        "answer": "Luật Đất đai quy định về bồi thường về đất khi Nhà nước thu hồi đất phi nông nghiệp, đơn vị sự nghiệp công lập, cộng đồng dân cư, tổ chức tôn giáo, tổ chức tôn giáo trực thuộc, người gốc Việt Nam định cư ở nước ngoài, tổ chức nước ngoài có chức năng ngoại giao, tổ chức kinh tế có vốn đầu tư nước ngoài theo quy định của pháp luật."
+        "generation_time": 31.17682409286499,
+        "answer": "Theo Điều 90 của Luật Đất đai, khi Nhà nước thu hồi đất phi nông nghiệp không phải là đất ở của tổ chức kinh tế, đơn vị sự nghiệp công lập, cộng đồng dân cư, tổ chức tôn giáo, tổ chức tôn giáo trực thuộc, người gốc Việt Nam định cư ở nước ngoài, tổ chức nước ngoài có chức năng ngoại giao, tổ chức kinh tế có vốn đầu tư nước ngoài, việc bồi thường về đất sẽ được thực hiện theo quy định cụ thể của pháp luật hiện hành. Cụ thể, tổ chức cần tuân thủ các quy định về bồi thường về đất khi Nhà nước thu hồi đất phi nông nghiệp không phải là đất ở của tổ chức kinh tế, đơn vị sự nghiệp công lập, cộng đồng dân cư, tổ chức tôn giáo, tổ chức tôn giáo trực thuộc, người gốc Việt Nam định cư ở nước ngoài, tổ chức nước ngoài có chức năng ngoại giao, tổ chức kinh tế có vốn đầu tư nước ngoài. Để biết chi tiết, bạn nên tham khảo trực tiếp Điều 90 của Luật Đất đai hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định thẩm quyền giải quyết tranh chấp đất đai như thế nào?",
         "recall_at_5": 0,
-        "bleu": 8.43267275709581e-21,
-        "rouge_l": 0.035130224106602055,
-        "bert_f1": 0.646237850189209,
+        "bleu": 6.130403164506267e-06,
+        "rouge_l": 0.12041284403669726,
+        "bert_f1": 0.6760875582695007,
         "retrieval_time": 0,
-        "generation_time": 9.496017456054688,
-        "answer": "Luật Đất đai 2024 quy định rõ ràng ràng nhượng giải quyết tranh chấp đất đai theo quy định của pháp luật."
+        "generation_time": 14.335332870483398,
+        "answer": "Theo Điều 253 của Luật Đất đai năm 2024, sau ngày Luật này có hiệu lực thi hành, Ủy ban nhân dân cấp tỉnh sẽ có thẩm quyền giải quyết tranh chấp đất đai theo quy định của Luật này. Tuy nhiên, cần lưu ý rằng có một số trường hợp được quy định tại khoản 22 và khoản 23 của Điều này, do đó, việc giải quyết tranh chấp cần tuân thủ các quy định cụ thể trong những khoản này."
     },
     {
         "query": "Nội dung Điều 61. (Hệ thống quy hoạch, kế hoạch sử dụng đất) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.001633762516412937,
-        "rouge_l": 0.21262458471760798,
-        "bert_f1": 0.6665569543838501,
+        "bleu": 0.07616253283235287,
+        "rouge_l": 0.3177083333333333,
+        "bert_f1": 0.6863890290260315,
         "retrieval_time": 0,
-        "generation_time": 14.147953033447266,
-        "answer": "Nội dung điều 61 quyền lợi nghiệp đất đai của cá nhân, các hộ đất quản lý theo quy định của UBND và đất chưa sử dụng, không được sử dụng để làm mục tiêu khác."
+        "generation_time": 15.643718481063843,
+        "answer": "Điều 61 của Luật Đất đai 2024 quy định về Hệ thống quy hoạch, kế hoạch sử dụng đất. Tuy nhiên, thông tin cụ thể về nội dung của Điều này chưa được cung cấp đầy đủ trong đoạn luật bạn cung cấp. Để có thông tin chính xác và chi tiết, bạn nên tham khảo trực tiếp Điều 61 trong văn bản pháp luật để hiểu rõ về nội dung cụ thể của nó. Nếu cần hỗ trợ thêm, vui lòng cung cấp thêm thông tin hoặc câu hỏi liên quan."
     },
     {
         "query": "Nội dung Điều 91. (Nguyên tắc bồi thường, hỗ trợ, tái định cư khi Nhà nước thu hồi đất) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 6.545685784435653e-10,
-        "rouge_l": 0.07539682539682539,
-        "bert_f1": 0.6881576776504517,
+        "bleu": 0.00042519575184165047,
+        "rouge_l": 0.18926296633303002,
+        "bert_f1": 0.6769559383392334,
         "retrieval_time": 0,
-        "generation_time": 11.838042736053467,
-        "answer": "Nội dung đề hạn của Điều 91 là quy định về việc bồi thường, hỗ trợ, tái định cư cho người sử dụng đất khi Nhà nước thu hồi đất."
+        "generation_time": 14.619176626205444,
+        "answer": "Điều 91 của Luật Đất đai 2024 quy định về nguyên tắc bồi thường, hỗ trợ, tái định cư khi Nhà nước thu hồi đất. Tuy nhiên, để cung cấp thông tin chính xác, cần phải xem xét cụ thể nội dung của Điều này trong văn bản pháp luật hiện hành. Bạn có thể cần tư vấn thêm từ một chuyên gia pháp lý hoặc tham khảo trực tiếp Điều 91 trong văn bản pháp luật để hiểu rõ hơn về các quy định cụ thể."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định những trường hợp nào không được bồi thường về đất khi Nhà nước thu hồi đất?",
         "recall_at_5": 0,
-        "bleu": 0.04331064232041688,
-        "rouge_l": 0.2901960784313726,
-        "bert_f1": 0.7042009830474854,
+        "bleu": 0.13801036656020482,
+        "rouge_l": 0.34523809523809523,
+        "bert_f1": 0.7081645131111145,
         "retrieval_time": 0,
-        "generation_time": 21.154731273651123,
-        "answer": "Các trường hợp không được bồi thường về đất là: 1. Đất đã được sử dụng đúng đại để được cấp sổ; 2. Đất đã được hủy hoại không được sử dụng để được cấp sổ; ini tên của đất đã được cấp sổ không được thay đổi."
+        "generation_time": 23.285675525665283,
+        "answer": "Theo Điều 1 của Luật Đất đai số 45/2013/QH13, Luật Đất đai số 21/2013/QH13 và Luật Đất đai số 39/2013/QH13 đã được sửa đổi, bổ sung theo Luật số 64/2018/QH13, Luật số 25/2020/QH13 và Luật số 06/2023/QH13, có quy định về các trường hợp không được bồi thường về đất khi Nhà nước thu hồi đất. Tuy nhiên, để có thông tin chính xác và chi tiết, bạn cần tham khảo cụ thể nội dung của Điều 1 trong Luật mới nhất để nắm rõ các trường hợp cụ thể không được bồi thường."
     },
     {
         "query": "Phạm vi điều chỉnh và đối tượng áp dụng của Luật Đất đai năm 2024 được quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 4.787627299736583e-05,
-        "rouge_l": 0.1450381679389313,
-        "bert_f1": 0.6947276592254639,
+        "bleu": 0.1044688402194159,
+        "rouge_l": 0.3591836734693878,
+        "bert_f1": 0.6829861402511597,
         "retrieval_time": 0,
-        "generation_time": 7.3758134841918945,
-        "answer": "Phạm vi điều chỉnh và áp dụng của Luật Đất đai năm 2024 là 2024-2031."
+        "generation_time": 40.469011068344116,
+        "answer": "Theo Điều 1 của Luật Đất đai số 45/2013/QH13, Luật Đất đai số 26/2013/QH13, Luật Đất đai số 39/2013/QH13, Luật Đất đai số 49/2013/QH13, Luật Đất đai số 23/2018/QH13, Luật Đất đai số 27/2018/QH13, Luật Đất đai số 41/2020/QH13, Luật Đất đai số 44/2020/QH13 và Luật Đất đai số 28/2024, phạm vi điều chỉnh và đối tượng áp dụng của Luật này bao gồm: a) Đối với đất thuộc sở hữu nhà nước; b) Đối với đất mà người sử dụng đất có quyền quyết định việc chuyển mục đích sử dụng đất; c) Đối với đất mà Nhà nước có chính sách khuyến khích đầu tư và sử dụng đất. Tuy nhiên, cần lưu ý rằng Luật mới nhất (Luật Đất đai số 28/2024) có thể đã đưa ra những sửa đổi, bổ sung cụ thể cho phạm vi điều chỉnh và đối tượng áp dụng. Để có thông tin chính xác nhất, bạn nên tham khảo trực tiếp nội dung của Luật Đất đai số 28/2024."
     },
     {
         "query": "Nội dung Điều 246. (Sửa đổi, bổ sung khoản 4 Điều 106 của Luật thi hành án dân sự số 26/2008/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 64/2014/QH13, Luật số 23/2018/QH14, Luật số 67/2020/QH14 và Luật số 03/2022/QH15) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.0,
-        "rouge_l": 0.19004524886877827,
-        "bert_f1": 0.6427698731422424,
+        "bleu": 0.11815479076823474,
+        "rouge_l": 0.33276157804459694,
+        "bert_f1": 0.7014192938804626,
         "retrieval_time": 0,
-        "generation_time": 21.06255793571472,
-        "answer": "Nội dung điều 246 là quy định về sử dụng đất đai, đất đai được sử dụng cho các vùng đất ở ởng độ, được cấp sổ ở để được sử dụng được điều kiện phù hợp với quy hoạch và được cấp sổ ở để được sử dụng được."
+        "generation_time": 26.55282425880432,
+        "answer": "Điều 246 của Luật Đất đai số 24/2013/QH13, sau khi được sửa đổi, bổ sung theo Luật số 64/2014/QH13, Luật số 23/2018/QH14 và Luật số 03/2022/QH15, quy định về việc thực hiện các thủ tục hành chính liên quan đến đất đai. Cụ thể, khoản 4 của Điều này quy định về việc xử lý các vấn đề liên quan đến việc giải quyết tranh chấp đất đai, bao gồm việc thu thập, cung cấp thông tin, xác minh và giải quyết tranh chấp đất đai một cách công bằng và hợp pháp. Tuy nhiên, để có thông tin chi tiết và chính xác nhất, bạn nên tham khảo trực tiếp văn bản pháp luật gốc hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định về cưỡng chế thực hiện quyết định kiểm đếm bắt buộc như thế nào?",
         "recall_at_5": 0,
-        "bleu": 2.618532869431714e-12,
-        "rouge_l": 0.06930693069306931,
-        "bert_f1": 0.6387829780578613,
+        "bleu": 0.011011717004298038,
+        "rouge_l": 0.21666666666666665,
+        "bert_f1": 0.6582391262054443,
         "retrieval_time": 0,
-        "generation_time": 8.785133838653564,
-        "answer": "Căn cứ đất đai có thẩm quyền quyết định kiểm đếm thì phải thực hiện quyết định theo quy định."
+        "generation_time": 25.0832257270813,
+        "answer": "Theo Điều 137 của Luật Đất đai số 45/2013/QH13, được sửa đổi, bổ sung bởi Luật số 35/2018/QH14, Luật số 16/2020/QH14 và Luật số 06/2023/QH14, việc cưỡng chế thực hiện quyết định kiểm đếm bắt buộc sẽ có hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành. Tuy nhiên, cần lưu ý rằng Nghị quyết số 132/2022/QH14 của Quốc hội đã bị bãi bỏ, do đó, nội dung của Luật này sẽ áp dụng thay cho các quy định cũ. Để đảm bảo tuân thủ đúng quy định, bạn nên tham khảo cụ thể các điều khoản liên quan trong Luật để hiểu rõ hơn về quy trình và phạm vi áp dụng của nó."
     },
     {
         "query": "Luật Đất đai quy định về quyền đối với thửa đất liền kề như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.0007137379876933313,
-        "rouge_l": 0.20083682008368203,
-        "bert_f1": 0.6785549521446228,
+        "bleu": 0.050072719541756204,
+        "rouge_l": 0.3576158940397351,
+        "bert_f1": 0.6911414861679077,
         "retrieval_time": 0,
-        "generation_time": 8.387534618377686,
-        "answer": "Nhà nước quản lý thửa đất liền kề quyền và đất đai, đồng thời cấp giấy phép cho các bên khác."
+        "generation_time": 11.114017724990845,
+        "answer": "Theo Điều 29 của Luật Đất đai, quyền đối với thửa đất liền kề được quy định cụ thể tại khoản 1 và khoản 2. Tuy nhiên, để có thông tin chính xác và đầy đủ, bạn cần cung cấp thêm thông tin về tình huống cụ thể mà bạn đang đối mặt. Điều này sẽ giúp tôi tư vấn một cách chính xác hơn."
     },
     {
         "query": "Nội dung Điều 176. (Hạn mức giao đất nông nghiệp) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 2.34626974211653e-13,
-        "rouge_l": 0.05399061032863849,
-        "bert_f1": 0.6410556435585022,
+        "bleu": 0.000538292859801771,
+        "rouge_l": 0.16808510638297874,
+        "bert_f1": 0.6396908164024353,
         "retrieval_time": 0,
-        "generation_time": 8.847054481506348,
-        "answer": "Nội dung điều 176 quy định hạn mức giao đất nông nghiệp theo thị trường đất đai định giá 2024."
+        "generation_time": 14.92653775215149,
+        "answer": "Theo Điều 176 của Luật Đất đai 2024, khoản 1 quy định về Hạn mức giao đất nông nghiệp. Tuy nhiên, thông tin cụ thể về nội dung của khoản này chưa được cung cấp đầy đủ trong đoạn luật bạn đã cung cấp. Để có thông tin chính xác và chi tiết, bạn nên tham khảo trực tiếp Điều 176 của Luật Đất đai 2024 hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định các trường hợp giao đất, cho thuê đất không đấu giá quyền sử dụng đất, không đấu thầu lựa chọn nhà đầu tư thực hiện dự án có sử dụng đất như thế nào?",
         "recall_at_5": 0,
-        "bleu": 1.3649569286150585e-09,
-        "rouge_l": 0.09523809523809523,
-        "bert_f1": 0.705592930316925,
+        "bleu": 5.7570272730680385e-05,
+        "rouge_l": 0.14412416851441243,
+        "bert_f1": 0.6958924531936646,
         "retrieval_time": 0,
-        "generation_time": 21.334651947021484,
-        "answer": "Luật Đất đai 2024 quy định cho thuê đất không đấu giá quyền sử dụng đất, không đấu thầu lựa chọn nhà đầu tư thực hiện dự án quy định là sử dụng đất trong trường hợp này phải là dự án công ích, công trình công ích cho cộng đồng thuộc cấp tỉnh hoặc cấp huyện."
+        "generation_time": 18.455990076065063,
+        "answer": "Theo Điều 127 của Luật Đất đai năm 2024, nếu trường hợp giao đất, cho thuê đất không thuộc trường hợp quy định tại khoản 1 thì sẽ được thực hiện theo quy định của Chính phủ. Cụ thể, việc giao đất, cho thuê đất không đấu giá quyền sử dụng đất, không đấu thầu lựa chọn nhà đầu tư thực hiện dự án có sử dụng đất sẽ được thực hiện theo quy định cụ thể của Chính phủ. Để có thông tin chi tiết và chính xác nhất, bạn nên tham khảo trực tiếp văn bản pháp luật hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Nội dung Điều 28. (Nhận quyền sử dụng đất) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 1.3083814335044105e-16,
-        "rouge_l": 0.05189340813464236,
-        "bert_f1": 0.6380195617675781,
+        "bleu": 1.6798633117903626e-06,
+        "rouge_l": 0.1223404255319149,
+        "bert_f1": 0.6259045004844666,
         "retrieval_time": 0,
-        "generation_time": 11.093775272369385,
-        "answer": "Nội dung điều 28 cấp giấy phép quy định quy hoạch sử dụng đất, nhưng không cấp thông tin về Nhà nước và quyền sử dụng đất."
+        "generation_time": 12.962758302688599,
+        "answer": "Điều 28 của Luật Đất đai 2024 quy định về việc nhận quyền sử dụng đất. Tuy nhiên, để cung cấp thông tin chính xác, cần phải xem xét cụ thể nội dung của Điều này trong văn bản pháp luật hiện hành. Bạn có thể cần tư vấn thêm từ một chuyên gia pháp lý hoặc tham khảo trực tiếp Điều 28 trong văn bản pháp luật để hiểu rõ hơn về nội dung cụ thể."
     },
     {
         "query": "Luật Đất đai quy định về bồi thường đối với cây\ntrồng, vật nuôi như thế nào?",
         "recall_at_5": 0,
-        "bleu": 2.178612778422726e-13,
-        "rouge_l": 0.05614973262032086,
-        "bert_f1": 0.6529635190963745,
+        "bleu": 0.0007213789168996368,
+        "rouge_l": 0.19253910950661854,
+        "bert_f1": 0.6672183871269226,
         "retrieval_time": 0,
-        "generation_time": 7.164380073547363,
-        "answer": "Cây trồng, vật nuôi được bồi thường theo quy định của Luật Đất đai 2024."
+        "generation_time": 12.600603103637695,
+        "answer": "Theo Điều 103 của Luật Đất đai, khi Nhà nước thu hồi đất để bồi thường về cây trồng và vật nuôi, mức bồi thường sẽ được quy định cụ thể trong điều luật liên quan. Tuy nhiên, để có thông tin chính xác và chi tiết, bạn cần tham khảo trực tiếp Điều 103 của Luật Đất đai hoặc liên hệ với cơ quan chức năng để được tư vấn cụ thể."
     },
     {
         "query": "Việc sử dụng đất phải tuân theo những nguyên tắc nào?",
         "recall_at_5": 0,
-        "bleu": 0.0,
-        "rouge_l": 0.19730941704035876,
-        "bert_f1": 0.7061049342155457,
+        "bleu": 0.0749876083883504,
+        "rouge_l": 0.38505747126436785,
+        "bert_f1": 0.7257105112075806,
         "retrieval_time": 0,
-        "generation_time": 9.187575101852417,
-        "answer": "Đất phải được sử dụng đúng mục đích, không làm thay đổi địa chính và phù hợp với quy hoạch đất."
+        "generation_time": 16.16955018043518,
+        "answer": "Theo Điều 13 của luật, việc sử dụng đất phải tuân thủ các nguyên tắc sau: Đất được sử dụng một cách bền vững, tiết kiệm và hiệu quả, đất được sử dụng đúng mục đích, đất được quản lý và sử dụng bởi người có thẩm quyền theo quy định của pháp luật, đất được sử dụng một cách công bằng giữa các bên liên quan, đất được sử dụng một cách minh bạch và công khai, đất được bảo vệ và cải tạo để tăng độ màu mỡ, đất không bị lãng phí và được sử dụng một cách hợp lý."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định chuyển tiếp về giao đất, cho thuê đất, chuyển mục đích sử dụng đất khi Luật này có hiệu lực thi hành như thế nào?",
         "recall_at_5": 0,
-        "bleu": 3.0899117613084306e-14,
-        "rouge_l": 0.055450535601764335,
-        "bert_f1": 0.6858476400375366,
+        "bleu": 0.00047319958019642855,
+        "rouge_l": 0.16014026884862653,
+        "bert_f1": 0.7362319231033325,
         "retrieval_time": 0,
-        "generation_time": 13.759119033813477,
-        "answer": "Luật Đất đai năm 2024 có hiệu lực thi hành quy định chuyển tiếp về giao đất, cho thuê đất, chuyển mục đích sử dụng đất theo quy định của Luật Đất đai 2024."
+        "generation_time": 26.127304315567017,
+        "answer": "Theo Điều 60 của Luật Đất đai số 45/2013/QH13, Luật Đất đai số 26/2013/QH13 và Luật Đất đai số 39/2013/QH13 đã được sửa đổi, bổ sung theo các Luật số 35/2016/QH13, Luật số 28/2017/QH13 và Luật số 64/2023/QH14, việc chuyển tiếp về giao đất, cho thuê đất, chuyển mục đích sử dụng đất khi Luật mới có hiệu lực thi hành sẽ thực hiện theo quy định của Chính phủ. Cụ thể, cơ quan nhà nước có thẩm quyền thực hiện việc giao đất, cho thuê đất, chuyển mục đích sử dụng đất sẽ áp dụng các quy định mới để đảm bảo tính liên tục và công bằng trong việc quản lý đất đai."
     },
     {
         "query": "Luật Đất đai quy định hệ thống quy hoạch, kế hoạch sử dụng đất như thế nào?",
         "recall_at_5": 0,
-        "bleu": 0.007239960508199976,
-        "rouge_l": 0.2578397212543554,
-        "bert_f1": 0.7355014085769653,
+        "bleu": 0.20881682415054265,
+        "rouge_l": 0.4744897959183673,
+        "bert_f1": 0.7983587980270386,
         "retrieval_time": 0,
-        "generation_time": 12.87680697441101,
-        "answer": "Luật Đất đai đặc thù cấp đối tượng cụ thể cung cấp hệ thống quy hoạch, kế hoạch sử dụng đất và các hình thức sử dụng đất cho các vùng địa bàn cụ thể."
+        "generation_time": 15.468811988830566,
+        "answer": "Theo Điều 247 của Luật Đất đai, hệ thống quy hoạch, kế hoạch sử dụng đất được quy định cụ thể tại các điều khoản liên quan trong Luật này. Hệ thống này bao gồm quy hoạch sử dụng đất quốc gia, quy hoạch sử dụng đất cấp tỉnh, và kế hoạch sử dụng đất hàng năm cấp tỉnh. Mục tiêu của hệ thống quy hoạch, kế hoạch sử dụng đất là nhằm đảm bảo việc sử dụng đất một cách hiệu quả, bền vững và phù hợp với chiến lược phát triển kinh tế - xã hội của đất nước."
     },
     {
         "query": "Nội dung Điều 58. (Chỉ tiêu, nội dung, hoạt động thống kê, kiểm kê đất đai) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 2.456866914448304e-06,
-        "rouge_l": 0.12382234185733512,
-        "bert_f1": 0.6700555682182312,
+        "bleu": 0.00028062661255602567,
+        "rouge_l": 0.1739130434782609,
+        "bert_f1": 0.672188937664032,
         "retrieval_time": 0,
-        "generation_time": 15.488377332687378,
-        "answer": "Điều 58 quy định cấp giá trị đất đai và kế hoạch sử dụng đất, nội dung và hoạt động thống kê và kiểm kê đất đai, đồng thời cung cấp cho cộng đồng đất đai và người sử dụng đất."
+        "generation_time": 11.287413835525513,
+        "answer": "Theo Điều 58 của Luật Đất đai 2024, nội dung Điều này quy định về chỉ tiêu, nội dung và hoạt động thống kê, kiểm kê đất đai. Tuy nhiên, để có thông tin chi tiết và chính xác, bạn cần tham khảo trực tiếp văn bản pháp luật hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Luật Đất đai năm 2024 quy định cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với tài sản là công trình xây dựng không phải là nhà ở như thế nào?",
         "recall_at_5": 0,
-        "bleu": 1.7101719911353217e-13,
-        "rouge_l": 0.06239168110918545,
-        "bert_f1": 0.6438932418823242,
+        "bleu": 0.00043294867300163516,
+        "rouge_l": 0.18705035971223022,
+        "bert_f1": 0.7152704000473022,
         "retrieval_time": 0,
-        "generation_time": 10.079313516616821,
-        "answer": "Công trình xây dựng không phải là nhà ở, nhưng phải được cấp Giấy chứng nhận quyền sử dụng đất để thực hiện."
+        "generation_time": 14.653142213821411,
+        "answer": "Theo Điều 196 của Luật Đất đai năm 2024, đối với tài sản là công trình xây dựng không phải là nhà ở, Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất sẽ được cấp cho người có nhu cầu và đủ điều kiện theo quy định của pháp luật. Tuy nhiên, chi tiết cụ thể về việc cấp Giấy chứng nhận này sẽ được quy định trong các điều khoản liên quan khác của Luật Đất đai năm 2024."
     },
     {
         "query": "Nội dung Điều 152. (Đính chính, thu hồi, hủy giấy chứng nhận đã cấp) của Luật Đất đai 2024 quy định như thế nào?",
         "recall_at_5": 0,
-        "bleu": 2.4341597948103637e-11,
-        "rouge_l": 0.06492335437330929,
-        "bert_f1": 0.6542315483093262,
+        "bleu": 8.563386223746331e-06,
+        "rouge_l": 0.10379415612734409,
+        "bert_f1": 0.6323134303092957,
         "retrieval_time": 0,
-        "generation_time": 21.12057137489319,
-        "answer": "Nội dung đề hạn của Điều 152 là quy định về việc đính chính, thu hồi, hủy giấy chứng nhận đất đai đã cấp để đảm bảo quản lý, thu hồi, hủy giấy chứng nhận đất đai được cấp để đảm bảo quản lý, thu hồi, hủy giấy chứng nhận đất đai được cấp."
+        "generation_time": 24.613131046295166,
+        "answer": "Theo Điều 152 của Luật Đất đai 2024, này quy định về việc đính chính, thu hồi, hủy giấy chứng nhận đã cấp. Cụ thể, điều này liên quan đến việc sửa đổi, bổ sung một số điều của Luật Đất đai số 45/2013/QH13, Luật Đất đai số 26/2013/QH13, Luật Đất đai số 29/2014/QH13, Luật Đất đai số 39/2018/QH14 và Luật Đất đai số 47/2020/QH14. Tuy nhiên, để có thông tin chi tiết và chính xác, bạn nên tham khảo trực tiếp văn bản pháp luật hoặc liên hệ với cơ quan có thẩm quyền để được tư vấn cụ thể."
     },
     {
         "query": "Luật Đất đai quy định như thế nào về trách nhiệm của Nhà nước đối với người sử dụng đất?",
         "recall_at_5": 0,
-        "bleu": 0.00019099937504971442,
-        "rouge_l": 0.16304347826086957,
-        "bert_f1": 0.6863287687301636,
+        "bleu": 0.028744973432670136,
+        "rouge_l": 0.3237250554323725,
+        "bert_f1": 0.7310649752616882,
         "retrieval_time": 0,
-        "generation_time": 10.30150318145752,
-        "answer": "Nhà nước quản lý, quản lý, đăng ký, thu hồi, góp vốn và các hành vi khác về đất đai và đời sống người sử dụng đất."
+        "generation_time": 12.396499156951904,
+        "answer": "Theo Điều 1 của Luật Đất đai, Nhà nước có trách nhiệm tạo điều kiện thuận lợi cho người sử dụng đất thực hiện quyền và nghĩa vụ của mình. Cụ thể, Nhà nước sẽ bảo vệ quyền lợi hợp pháp của người sử dụng đất, hỗ trợ trong việc sử dụng đất một cách hiệu quả và bền vững, đồng thời giám sát để đảm bảo tuân thủ các quy định pháp luật liên quan đến đất đai."
     }
 ]
